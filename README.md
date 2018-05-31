@@ -1,5 +1,5 @@
 # rpi_backup
-Backup current Raspberry OS to image.
+Backup current Raspberry OS to image. 
 This script forked from 
 [RaspberryPi-script](https://github.com/conanwhf/RaspberryPi-script)
 ,Looking for more detail,you can visit the author's 
