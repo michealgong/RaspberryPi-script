@@ -10,7 +10,8 @@ if [ ! -d $mount_point ]; then
 fi
 
 if [ -z $1 ]; then
-        echo "no argument, assume the mount device is /dev/sda1 ? Y/N"
+        echo "No argument, assume the mount device is /dev/sda1 ? Y/N"
+        echo "Otherwise it will save the image in /mnt";
         read key
         if [ "$key" = "y" -o "$key" = "Y" ]; then
                 sudo mount -o uid=1000 /dev/sda1 $mount_point
